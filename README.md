@@ -8,7 +8,7 @@
 
 ##### 1.为您的编辑器安装eslint扩展
 
-![image-20230407154219415](C:\Users\admin\Desktop\eslint-config-hewx\README.assets\image-20230407154219415.png)
+![image-20230407155047175](C:\Users\admin\Desktop\eslint-config-hewx\assets\image-20230407155047175.png)
 
 ##### 2.为您的项目安装eslint
 
