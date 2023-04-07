@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hewx",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "eslint配置文件",
   "main": "index.js",
   "scripts": {},
@@ -10,7 +10,8 @@
     "eslint-config",
     "javascript",
     "uniapp",
-    "vue2"
+    "vue2",
+    "node"
   ],
   "author": "hewx",
   "license": "ISC",
