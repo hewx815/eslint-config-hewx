@@ -8,8 +8,10 @@ module.exports = {
     'eslint:recommended',
     'plugin:import/recommended',
     'plugin:promise/recommended',
-    'plugin:vue/recommended'
+    'plugin:vue/vue3-recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
+  parser: '@typescript-eslint/parser',
   overrides: [],
   parserOptions: { ecmaVersion: 'latest' },
   globals: { // 全局变量
@@ -24,7 +26,7 @@ module.exports = {
       },
     },
   },
-  plugins: ['import', 'promise', 'vue'],
+  plugins: ['import', 'promise', 'vue', '@typescript-eslint'],
   rules: {
     'no-param-reassign': ['error', { ignorePropertyModificationsFor: ['state'] }], // 函数参数可修改白名单
     'max-len': [0], // 忽略每行长度

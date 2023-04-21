@@ -71,5 +71,7 @@ module.exports = {
 |          name          |        适用范围        |
 | :--------------------: | :--------------------: |
 | uniapp-vue2-javascript | uniapp+vue2+javascript |
+| uniapp-vue3-typescript | uniapp+vue3+typescript |
 |    node-javascript     |   nodejs+javascript    |
+|    node-typescript     |   nodejs+typescript    |
 

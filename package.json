@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hewx",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "eslint配置文件",
   "main": "index.js",
   "scripts": {},
@@ -16,9 +16,13 @@
   "author": "hewx",
   "license": "ISC",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-vue": "^9.10.0"
   },
   "devDependencies": {
