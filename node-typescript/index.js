@@ -9,12 +9,13 @@ module.exports = {
     'plugin:node/recommended',
     'plugin:import/recommended',
     'plugin:promise/recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ['import', 'promise', 'node'],
+  plugins: ['import', 'promise', 'node','@typescript-eslint'],
   rules: {
   },
 };
