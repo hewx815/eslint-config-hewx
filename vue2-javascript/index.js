@@ -26,5 +26,6 @@ module.exports = {
   plugins: ['import', 'promise', 'vue'],
   rules: {
     'no-param-reassign': ['error', { ignorePropertyModificationsFor: ['state'] }], // 函数参数可修改白名单
+    'max-len': [0], // 忽略每行长度
   },
 };

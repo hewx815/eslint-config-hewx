@@ -74,4 +74,5 @@ module.exports = {
 | uniapp-vue3-typescript | uniapp+vue3+typescript |
 |    node-javascript     |   nodejs+javascript    |
 |    node-typescript     |   nodejs+typescript    |
+|    vue2-typescript     |    vue2+typescript     |
 
