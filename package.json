@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hewx",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "eslint配置文件",
   "main": "index.js",
   "scripts": {},
