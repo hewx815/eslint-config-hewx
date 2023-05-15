@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    es2021: true,
+    es2022: true,
     node: true,
   },
   extends: [
@@ -18,13 +18,29 @@ module.exports = {
   },
   plugins: ['import', 'promise', 'node','@typescript-eslint'],
   rules: {
+    "max-len": [0],
     "node/no-unsupported-features/es-syntax": [0],
-    "node/no-missing-import": [0]
+    "node/no-missing-import": [0],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
   },
   settings: {
+    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
     "import/resolver": {
-      typescript: true,
-      node: true
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
     }
   }
 };
