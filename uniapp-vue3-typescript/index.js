@@ -11,9 +11,12 @@ module.exports = {
     'plugin:vue/vue3-recommended',
     'plugin:@typescript-eslint/recommended',
   ],
-  parser: '@typescript-eslint/parser',
+  parser: 'vue-eslint-parser',
   overrides: [],
-  parserOptions: { ecmaVersion: 'latest' },
+  parserOptions: {
+    ecmaVersion: 'latest',
+    parser: "@typescript-eslint/parser",
+  },
   globals: { // 全局变量
     uni: 'writable',
     getCurrentPages: 'readonly',
