@@ -9,7 +9,7 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:promise/recommended',
     'plugin:vue/vue3-recommended',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
   parser: 'vue-eslint-parser',
   overrides: [],
@@ -28,6 +28,9 @@ module.exports = {
         extensions: ['.js', '.vue', 'scss'], // @/引入问题
       },
     },
+  },
+  parserOptions: {
+    project: true,
   },
   plugins: ['import', 'promise', 'vue', '@typescript-eslint'],
   rules: {
