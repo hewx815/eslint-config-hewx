@@ -9,7 +9,7 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:promise/recommended',
     'plugin:vue/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    'plugin:@typescript-eslint/recommended',
   ],
   parser: 'vue-eslint-parser',
   overrides: [],
@@ -20,21 +20,34 @@ module.exports = {
   globals: { // 全局变量
     uni: 'writable',
     getCurrentPages: 'readonly',
+    UniNamespace: 'readonly',
   },
   settings: {
     'import/resolver': {
       alias: {
         map: [['@', './src']],
-        extensions: ['.js', '.vue', 'scss'], // @/引入问题
+        extensions: ['.js', '.vue', '.scss', '.ts', '.d.ts'], // @/引入问题
       },
+      typescript: true
     },
-  },
-  parserOptions: {
-    project: true,
   },
   plugins: ['import', 'promise', 'vue', '@typescript-eslint'],
   rules: {
     'no-param-reassign': ['error', { ignorePropertyModificationsFor: ['state'] }], // 函数参数可修改白名单
     'max-len': [0], // 忽略每行长度
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "peerDependencies": false
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "always",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
   },
 };
