@@ -1,20 +1,34 @@
 {
   "name": "eslint-config-hewx",
-  "version": "1.4.5",
+  "version": "1.5.0",
   "description": "eslint配置文件",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [
-    "eslint",
-    "Eslint",
-    "eslint-config",
-    "javascript",
-    "uniapp",
-    "vue2",
-    "node"
-  ],
   "author": "hewx",
   "license": "ISC",
+  "keywords": [
+    "eslint-config",
+    "eslint",
+    "Eslint",
+    "javascript",
+    "typescript",
+    "uniapp",
+    "vue2",
+    "vue3",
+    "node"
+  ],
+  "files": [
+    "./assets",
+    "./node-javascript",
+    "./node-typescript",
+    "./uniapp-vue2-javascript",
+    "./uniapp-vue2-typescript",
+    "./uniapp-vue3-javascript",
+    "./uniapp-vue3-typescript",
+    "./vue2-javascript",
+    "./vue2-typescript",
+    "./vue3-javascript",
+    "./vue3-typescript"
+  ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@typescript-eslint/parser": "^6.4.0",

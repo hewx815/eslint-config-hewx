@@ -8,7 +8,7 @@
 
 ##### 1.为您的编辑器安装eslint扩展
 
-![image-20230407155047175](C:\Users\admin\Desktop\eslint-config-hewx\assets\image-20230407155047175.png)
+![image-20230407155047175](./assets/image-20230407155047175.png)
 
 ##### 2.为您的项目安装eslint
 
@@ -66,15 +66,19 @@ module.exports = {
 
 ```
 
-`'eslint-config-hewx/uniapp-vue2-javascript'` 中的`uniapp-vue2-javascript`是可变的，根据项目类型选择合适的内容，可用`name`值如下：
+`'eslint-config-hewx/uniapp-vue2-javascript'` 中的`uniapp-vue2-javascript`是可变的，根据项目类型选择合适的内容，目前支持的项目如下
 
-|          name          |        适用范围        |
+|          name          |        项目类型        |
 | :--------------------: | :--------------------: |
+|    vue2-javascript     |    vue2+javascript     |
+|    vue2-typescript     |    vue2+typescript     |
+|    vue3-javascript     |    vue3+javascript     |
+|    vue3-typescript     |    vue3+typescript     |
+|    node-javascript     |   nodejs+javascript    |
+|    node-typescript     |   nodejs+typescript    |
 | uniapp-vue2-javascript | uniapp+vue2+javascript |
 | uniapp-vue2-typescript | uniapp+vue2+typescript |
 | uniapp-vue3-javascript | uniapp+vue3+javascript |
 | uniapp-vue3-typescript | uniapp+vue3+typescript |
-|    node-javascript     |   nodejs+javascript    |
-|    node-typescript     |   nodejs+typescript    |
-|    vue2-typescript     |    vue2+typescript     |
+
 
