@@ -16,11 +16,12 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ['import', 'promise', 'node','@typescript-eslint'],
+  plugins: ['import', 'promise', 'node', '@typescript-eslint'],
   rules: {
     "max-len": [0],
     "node/no-unsupported-features/es-syntax": [0],
     "node/no-missing-import": [0],
+    "import/no-extraneous-dependencies": [0],
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -43,5 +44,5 @@ module.exports = {
       },
       "typescript": true
     }
-  }
+  },
 };

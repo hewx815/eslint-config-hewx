@@ -29,5 +29,6 @@ module.exports = {
   rules: {
     'no-param-reassign': ['error', { ignorePropertyModificationsFor: ['state'] }], // 函数参数可修改白名单
     'max-len': [0], // 忽略每行长度
+    "import/no-extraneous-dependencies": [0],
   },
 };

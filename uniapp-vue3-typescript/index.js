@@ -47,12 +47,7 @@ module.exports = {
   rules: {
     'no-param-reassign': ['error', { ignorePropertyModificationsFor: ['state'] }], // vuex函数参数可修改白名单
     'max-len': [0], // 忽略每行长度
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "peerDependencies": false
-      }
-    ],
+    "import/no-extraneous-dependencies": [0],
     "import/extensions": [
       "error",
       "always",

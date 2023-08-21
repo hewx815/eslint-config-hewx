@@ -16,5 +16,6 @@ module.exports = {
   },
   plugins: ['import', 'promise', 'node'],
   rules: {
+    "import/no-extraneous-dependencies": [0],
   },
 };
